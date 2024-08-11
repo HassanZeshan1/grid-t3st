@@ -13,13 +13,13 @@
     font-size: 1.6rem;
   }
   
-  /* utility classes */
+  /* img settings */
   
   img {
     width: 100%;
     height: 100%;
   }
-  
+/*   CONTAINER */
   .container {
     display: grid;
     grid-template-columns: 8rem 1fr repeat(6, minmax(1fr, 18.3rem)) 1fr;
@@ -32,7 +32,7 @@
       "nav gallery gallery gallery gallery gallery gallery gallery gallery"
       "nav footer footer footer footer footer footer footer footer";
   }
-  
+/*   NAVBAR */
   .navbar {
     grid-area: nav;
     background-color: green;
@@ -61,7 +61,7 @@
     content: "";
     top: 1rem;
   }
-  
+/*   HEADER */
   .header {
     grid-area: header;
     background: linear-gradient(rgba(16, 29, 44, 0.581), rgba(16, 29, 44, 0.505)),
@@ -112,7 +112,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 3rem;
   }
-  
+/*   REALTORS */
   .realtors {
     grid-area: realtors;
     background-color:blueviolet;
@@ -151,7 +151,7 @@
     align-self: start;
     font-size: 0.8rem;
   }
-  
+/*   SERVICES */
   .services {
     grid-area: services;
     display: grid;
@@ -184,27 +184,27 @@
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
   }
-  
+/*   GOALS */
   .goals {
     grid-area: goals;
     background-color: grey;
   }
-  
+/* STORU   */
   .story {
     grid-area: story;
     background-color: yellowgreen);
   }
-  
+/*   HOMES */
   .homes {
     grid-area: homes;
     background-color: brown;
   }
-  
+/*   GALLERY */
   .gallery {
     grid-area: gallery;
     background-color:purple;
   }
-  
+/*   FOOTEER */
   .footer {
     grid-area: footer;
     background-color: black;
